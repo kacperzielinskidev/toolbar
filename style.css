@@ -24,12 +24,20 @@ button {
 }
 
 .nav {
-  display: none;
+  /* display: none; */
   height: 60px;
   width: 100%;
   background-color: var(--primary-color);
   position: absolute;
   color: var(--primary-white);
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
 }
 
 .nav__container {
