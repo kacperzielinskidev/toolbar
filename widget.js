@@ -5,11 +5,11 @@ const getWidgetsButton = document.querySelector(".nav__button");
 const navText = document.querySelector(".nav__text");
 
 function hideBar() {
-  return (nav.style.display = "none");
+  return nav.classList.remove("slide__animation");
 }
 
 function showBar() {
-  return (nav.style.display = "block");
+  return nav.classList.add("slide__animation");
 }
 
 function showAlertMessage(message) {
