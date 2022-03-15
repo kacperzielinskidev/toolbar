@@ -1,7 +1,6 @@
 :root {
   --primary-color: #363d4d;
   --primary-white: #fff;
-
   --primary-font: Montserrat, sans-serif;
 }
 
@@ -14,10 +13,52 @@ html {
 }
 
 body {
+  color: var(--primary-white);
   margin: 0;
   padding: 0;
   font-family: var(--primary-font);
   height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+button {
+  font-family: var(--primary-font);
+}
+
+.nav {
+  height: 60px;
+  width: 100%;
+  background-color: var(--primary-color);
+  position: absolute;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.nav__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  gap: 10px;
+  height: 100%;
+}
+
+.nav__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 60%;
+  font-size: 13px;
+  color: white;
+  background-color: #f9bd2b;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
 }
