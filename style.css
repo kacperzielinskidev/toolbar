@@ -62,3 +62,7 @@ button {
   border-radius: 3px;
   cursor: pointer;
 }
+
+.nav__close {
+  cursor: pointer;
+}
