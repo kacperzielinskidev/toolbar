@@ -28,12 +28,13 @@ button {
   background-color: var(--primary-color);
   position: absolute;
   color: var(--primary-white);
-  transition: 0.4s ease-in-out;
-  height: 0;
+  transition: 0.5s ease-in-out;
+  height: 60px;
+  opacity: 0;
 }
 
 .slide__animation {
-  height: 60px;
+  opacity: 1;
 }
 
 .bottom {
