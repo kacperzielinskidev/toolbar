@@ -24,12 +24,16 @@ button {
 }
 
 .nav {
-  /* display: none; */
-  height: 60px;
   width: 100%;
   background-color: var(--primary-color);
   position: absolute;
   color: var(--primary-white);
+  transition: 0.4s ease-in-out;
+  height: 0;
+}
+
+.slide__animation {
+  height: 60px;
 }
 
 .bottom {
