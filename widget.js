@@ -1,15 +1,15 @@
-const nav = document.querySelector(".nav");
+const nav = document.querySelector("nav");
 const closeButton = document.querySelector(".nav__close");
 const showBarButton = document.querySelector(".showbar__button");
 const getWidgetsButton = document.querySelector(".nav__button");
 const navText = document.querySelector(".nav__text");
 
 function hideBar() {
-  return nav.classList.remove("slide__animation");
+  return (nav.style.height = "0");
 }
 
 function showBar() {
-  return nav.classList.add("slide__animation");
+  return (nav.style.height = "60px");
 }
 
 function showAlertMessage(message) {
