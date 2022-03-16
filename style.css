@@ -92,3 +92,42 @@ button {
   cursor: pointer;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+  .nav__content {
+    width: 90%;
+    display: flex;
+  }
+
+  .nav__button {
+    width: 80px;
+    height: 30px;
+    font-size: 0.6em;
+  }
+
+  .nav__text {
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (min-width: 200px) {
+  .nav__content {
+    width: 95%;
+    padding: 5px;
+  }
+
+  .nav__button {
+    width: 55px;
+    height: 25px;
+    font-size: 0.5em;
+  }
+
+  .nav__text {
+    font-size: 0.6em;
+  }
+
+  .nav__close {
+    margin-right: 5px;
+    font-size: 0.8em;
+  }
+}
